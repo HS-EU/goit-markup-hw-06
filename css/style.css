@@ -714,7 +714,7 @@ fill: var(--accent-cl);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
-    color: var(--secondary-text-color);
+    color: var(--main-text-cl);
 }
 
 .input-check-castom {
