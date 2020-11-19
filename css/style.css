@@ -673,15 +673,16 @@ fill: var(--accent-cl);
     border-radius: 4px;
     width: 100%;
     resize: none;
-    transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-content-imput:focus {
-    border: 1px solid var(--accent-cl);
+    border: var(--accent-cl);
 }
-.modal-content-imput:focus ~ .modal-content-icon {
+
+.modal-content-imput:focus ~ .modal-content-icon,
+.modal-content-imput:focus {
     fill: var(--accent-cl);
 }
 
@@ -691,7 +692,7 @@ fill: var(--accent-cl);
 }
 
 .modal-content-imput.coments::placeholder {
-    color: rgba(117, 117, 117, 0.5);
+    color: hsla(0, 0%, 46%, 0.5);
 }
 
 .modal-content-icon {
