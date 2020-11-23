@@ -497,6 +497,7 @@ fill: var(--accent-cl);
     padding-top: 60px;
     padding-bottom: 60px;
     display: flex;
+    justify-content: space-between;
 }
 
 .footer {
@@ -1001,9 +1002,7 @@ fill: var(--accent-cl);
 }
 
 .join-box {
-	display: flex;
     font-family: Roboto;
-	justify-content: flex-start;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
@@ -1048,4 +1047,8 @@ fill: var(--accent-cl);
 .icon-send-svg {
 	fill: var(--white);
 	margin-left: 10px;
+}
+
+.js-speaker-form{
+    display: flex;
 }
