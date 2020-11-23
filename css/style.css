@@ -999,6 +999,7 @@ fill: var(--accent-cl);
 .wedo .item-img:focus {
     background-color: var(--accent-cl);
 }
+
 .join-box {
 	display: flex;
     font-family: Roboto;
