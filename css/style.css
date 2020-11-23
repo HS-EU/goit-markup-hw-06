@@ -692,9 +692,14 @@ fill: var(--accent-cl);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.modal-content-imput:hover,
 .modal-content-imput:focus {
     border: 1px solid  var(--accent-cl);
+}
+
+.modal-content-imput:hover ~ .modal-content-icon,
+.modal-content-imput:hover {
+    fill: var(--accent-cl);
 }
 
 .modal-content-imput:focus ~ .modal-content-icon,
