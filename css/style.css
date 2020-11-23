@@ -1001,7 +1001,7 @@ fill: var(--accent-cl);
 }
 .join-box {
 	display: flex;
-
+    font-family: Roboto;
 	justify-content: flex-start;
 	font-weight: 700;
 	font-size: 14px;
@@ -1012,7 +1012,8 @@ fill: var(--accent-cl);
 }
 
 .mail-form {
-	width: 356px;
+    width: 356px;
+    font-family: Roboto;
 	height: 50px;
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	box-sizing: border-box;
@@ -1026,7 +1027,8 @@ fill: var(--accent-cl);
 .footer-button {
 	display: inline-flex;
 	align-items: center;
-	width: 200px;
+    width: 200px;
+    font-family: Roboto;
 	height: 50px;
 	padding-top: 10px;
 	padding-right: 28px;
