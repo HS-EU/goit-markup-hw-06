@@ -695,6 +695,7 @@ fill: var(--accent-cl);
 .modal-content-imput:hover,
 .modal-content-imput:focus {
     border: 1px solid  var(--accent-cl);
+    cursor: url(../img/icons/finger.svg), pointer;
 }
 
 .modal-content-imput:hover ~ .modal-content-icon,
