@@ -81,6 +81,21 @@ body {
     letter-spacing: 0.03em;
 }
 
+div, ul, li, p, form, b, button, a, input, textarea, img {
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+input, textarea {
+    outline: none;
+}
+
+label {
+    margin: 0;
+}
+
 .container {
     width: 1200px;
     margin-left: auto;
@@ -678,7 +693,7 @@ fill: var(--accent-cl);
 }
 
 .modal-content-imput:focus {
-    border: var(--accent-cl);
+    border: 1px solid  var(--accent-cl);
 }
 
 .modal-content-imput:focus ~ .modal-content-icon,
