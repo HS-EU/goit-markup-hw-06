@@ -772,6 +772,7 @@ fill: var(--accent-cl);
     margin-left: 4px;
     color: var(--accent-cl);
     border-bottom: 1px solid var(--accent-cl);
+    line-height: 13px;
 }
 
 .modal-content-button {
