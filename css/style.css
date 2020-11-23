@@ -96,6 +96,11 @@ label {
     margin: 0;
 }
 
+a, a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
 .container {
     width: 1200px;
     margin-left: auto;
@@ -745,7 +750,7 @@ fill: var(--accent-cl);
     margin-right: 7px;
     width: 16px;
     height: 15px;
-    border: 1px solid #212121;
+    border: 2px solid #212121;
     border-radius: 4px;
     fill: #ffffff;
     background-color: #ffffff;
@@ -766,6 +771,7 @@ fill: var(--accent-cl);
 .modal-content-check .link {
     margin-left: 4px;
     color: var(--accent-cl);
+    border-bottom: 1px solid var(--accent-cl);
 }
 
 .modal-content-button {
