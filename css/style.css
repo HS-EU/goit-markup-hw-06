@@ -769,7 +769,7 @@ fill: var(--accent-cl);
     border-color: var(--accent-cl);
 }
 
-.modal-input-check .hidden-modal {
+..hidden-modal {
     display: none;
 }
 
