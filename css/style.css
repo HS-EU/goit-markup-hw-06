@@ -622,7 +622,7 @@ fill: var(--accent-cl);
     left: 50%;
     width: 528px;
     height: 581px;
-    background: #ffffff;
+    background: var(--white);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -641,7 +641,7 @@ fill: var(--accent-cl);
     padding: 5px;
     width: 30px;
     height: 30px;
-    background-color: #fff;
+    background-color: var(--white);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     transition-property: border;
@@ -753,8 +753,8 @@ fill: var(--accent-cl);
     height: 15px;
     border: 2px solid #212121;
     border-radius: 4px;
-    fill: #ffffff;
-    background-color: #ffffff;
+    fill: var(--white);
+    background-color: var(--white);
     transition-property: background-color, border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -789,8 +789,8 @@ fill: var(--accent-cl);
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;
-    color: #ffffff;
-    background-color: #2196f3;
+    color: var(--white);
+    background-color: var(--accent-cl);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: 0;
@@ -829,7 +829,7 @@ fill: var(--accent-cl);
     line-height: 1.6;
     text-align: center;
     color: var(--black);
-    background: #f5f4fa;
+    background: var(--bg);
     border-radius: 4px;
     border: 0;
     transition-property: background-color, color, box-shadow;
@@ -840,7 +840,7 @@ fill: var(--accent-cl);
 .filter .link-filter:hover,
 .link-filter:focus {
     background: var(--accent-cl);
-    color: #ffffff;
+    color: var(--white);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
