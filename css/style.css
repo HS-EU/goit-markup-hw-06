@@ -770,7 +770,7 @@ fill: var(--accent-cl);
 }
 
 .modal-input-check .hidden{
-    display:none
+    display: none;
 }
 
 .modal-content-check .link {
